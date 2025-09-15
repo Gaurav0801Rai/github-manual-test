@@ -1,20 +1,25 @@
-# GitHub Manual Test 
+# GitHub Functional Testing
 
-Hey there! 👋  
-This little repo is just me playing around with GitHub and figuring out how to push files (in this case, an Excel sheet) to a repository.  
+## Project Overview
+This repository contains **manual test cases and bug reports** for validating the functionality of GitHub.  
+The test cases ensure that the most critical workflows of GitHub are working as expected, and any deviations are logged as bugs.  
 
-## What's inside?  
-- A single Excel file: `data/Github manual Test.xlsx`  
-- That’s it — nothing fancy, just something to test and learn.  
+## Contents
+- Github manual Test .xlsx → Contains both test cases and bug reports  
 
-## Why did I make this?  
-I wanted a simple place to:  
-- Practice using GitHub.  
-- Get comfortable with pushing non-code files like Excel.  
-- See how GitHub handles version control when the file isn’t a `.js` or `.py` file.  
+## Features Tested
+- Login & Authentication  
+- Repository Management (Create, Delete, Fork, Star)  
+- Branching & Pull Requests  
+- Issues (Create, Comment, Close, Reopen)  
+- Profile Management (Update Info, Upload Profile Picture)  
+- Security (Two-Factor Authentication)  
 
-## How you can use it 🛠  
-If you’re also new to GitHub, you can:  
-1. Clone this repo:  
-   ```bash
-   git clone https://github.com/your-username/github-manual-test.git
+## Test Execution Summary
+- Total Test Cases: 25+  
+- Passed: Majority  
+- Failed: 5–6 (documented in bug report section of the same sheet)  
+
+## Author
+- **Gaurav Kumar**  
+- Date: 15-Sep-2025  
